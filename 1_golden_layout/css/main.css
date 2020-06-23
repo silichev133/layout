@@ -1,0 +1,175 @@
+:root {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: url("../img/first-bg.jpg") no-repeat center top / cover;
+    padding-bottom: 160px;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+.logo {
+    margin-top: 41px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.title__first {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 180px;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 4.6875rem;
+    text-align: center;
+    margin: 15px;
+}
+
+.button {
+    background: #fed136;
+    text-transform: uppercase;
+    color: 484543;
+    border-radius:5px;
+    display: block;
+    text-decoration: none;
+    width: 240px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-top: 50px;
+}
+
+.title {
+    padding-top: 115px;
+}
+
+.title h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.title p {
+    color: #777777;
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.service__item {
+    width: 270px;
+    text-align: center;
+    float: left;
+}
+
+.service__item h3 {
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+}
+
+.service__item p {
+    color: #777777;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.service__item:last-child {
+    float: right;
+}
+
+.service__item:nth-child(2) {
+    margin-left: 60px;
+}
+
+#services {
+    padding-bottom: 120px;
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+    padding-bottom: 120px;
+}
+
+.works {
+    margin-top: 70px;
+}
+
+.works img {
+    float: left;
+}
+
+.works img:nth-child(2) {
+    margin-left: 30px;
+}
+
+.works img:last-child {
+    float: right;
+}
+
+footer {
+    background: #444;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1125rem;
+    color: #fff;
+    padding: 10px;
+}
+
