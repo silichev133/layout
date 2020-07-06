@@ -6,6 +6,8 @@
         <title>Law</title>
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -15,7 +17,7 @@
                     <div class="header__contacts">
                         <a href="#" class="header__phone">+38 (096) 309 21 45</a>
                         <a href="#" class="header__email">layout585@gmail.com</a>
-                        <a href="#" class="header__btn">Бесплатная консультация</a>
+                        <a data-fancybox data-src="#modal" href="javascript:;" href="#" class="header__btn">Бесплатная консультация</a>
                     </div>
                 </div>
             </div>
@@ -47,5 +49,17 @@
                 </div>
             </div>
         </header>
+
+
+
+        <div id="modal">
+            <h2>Hello!</h2>
+            <p>You are awesome!</p>
+          </div> 
+
+
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
