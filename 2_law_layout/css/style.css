@@ -129,3 +129,29 @@ header {
 #modal {
     display: none;
 }
+
+.slider {
+    background-image: url('../img/slider-fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+}
+
+.slider__item-content {
+    text-align: center;
+    padding-top: 110px;
+    min-width: 665px;
+    margin: 0px auto;
+}
+
+.slider__title {
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+}
